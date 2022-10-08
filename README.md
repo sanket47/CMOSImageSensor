@@ -32,7 +32,7 @@ Several digital color sensors employ light to frequency technique and photodiode
 ▲t = Cint * ▲V / Iphoto.
 
 # Software Used
-    # eSim
+    * eSim Software
     It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely     NgSpice and KiCAD.
 For more details refer:
 https://esim.fossee.in/home
