@@ -2,7 +2,7 @@ Mixed Signal Circuit Design and Simulation Marathon 2022.
 
 # CMOS Image Sensor
 CMOS Image Sensor Implementation in eSim.
-(*** Note: This Project Output was not as expected, uploaded to complete the competition process to show the work I did during the competition duration. As Participation and competing is more important for a sense of satisfaction)
+(*** Note: This Project Output was not as expected, uploaded to complete the competition process to show the work I did during the competition duration).
 
 # CMOS Image Sensor (I to F Converter)
 * Abstract
