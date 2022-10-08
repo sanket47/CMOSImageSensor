@@ -1,0 +1,20 @@
+* /home/kulkarnisanket47/esim-workspace/sanketk_cmossensorv1i1/sanketk_cmossensorv1i1.cir
+
+xsc2 net-_sc1-pad2_ gnd sky130_fd_pr__cap_mim_m3_2 sky130_fd_pr__model__cap_mim
+xsc5 net-_sc5-pad1_ net-_sc3-pad2_ vdd net-_sc5-pad4_ sky130_stdcells__dfrtn_1 
+xsc1 vdd net-_sc1-pad2_ sky130_fd_pr__diode 
+xsc3 vdd net-_sc3-pad2_ net-_sc1-pad2_ net-_sc1-pad2_ sky130_fd_pr__nfet_05v0_nvt 
+xsc4 sky130_tests__n_diffamp 
+* u1  net-_sc5-pad4_ plot_v1
+v1  net-_sc1-pad2_ gnd pulse(1.5 1.5 3 1 2 2 3)
+v2  gnd net-_sc5-pad1_ pulse(3.3 3.3 2 1 1 2 3)
+.tran 0.1e-00 300e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(net-_sc5-pad4_)
+.endc
+.end

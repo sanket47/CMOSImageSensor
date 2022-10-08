@@ -1,0 +1,18 @@
+* /home/kulkarnisanket47/eSim-Workspace/SanketK_CMOSSensorV1I1/SanketK_CMOSSensorV1I1.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Fri 07 Oct 2022 05:12:52 PM IST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+SC2  Net-_SC1-Pad2_ GND sky130_fd_pr__cap_mim_m3_2		
+SC5  Net-_SC5-Pad1_ Net-_SC3-Pad2_ VDD Net-_SC5-Pad4_ sky130_stdcells__dfrtn_1		
+SC1  VDD Net-_SC1-Pad2_ sky130_fd_pr__diode		
+SC3  VDD Net-_SC3-Pad2_ Net-_SC1-Pad2_ Net-_SC1-Pad2_ sky130_fd_pr__nfet_05v0_nvt		
+SC4  sky130_tests__n_diffamp		
+U1  Net-_SC5-Pad4_ plot_v1		
+v1  Net-_SC1-Pad2_ GND pulse		
+v2  GND Net-_SC5-Pad1_ pulse		
+
+.end

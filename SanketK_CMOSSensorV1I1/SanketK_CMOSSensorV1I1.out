@@ -1,0 +1,10 @@
+
+No compatibility mode selected!
+
+
+Circuit: * /home/kulkarnisanket47/esim-workspace/sanketk_cmossensorv1i1/sanketk_cmossensorv1i1.cir
+
+Error: unknown subckt: xsc2 net-_sc1-pad2_ 0 sky130_fd_pr__cap_mim_m3_2 sky130_fd_pr__model__cap_mim
+    Simulation interrupted due to error!
+
+Error: there aren't any circuits loaded.
