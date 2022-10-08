@@ -1,9 +1,10 @@
 Mixed Signal Circuit Design and Simulation Marathon 2022.
 
-# CMOSImageSensor
+# CMOS Image Sensor
 CMOS Image Sensor Implementation in eSim.
 
-#Abstract
+# CMOS Image Sensor (I to F Converter)
+* Abstract
 * Reference Circuit Diagram
 * Reference Waveform
 * Circuit Details
@@ -25,13 +26,40 @@ CMOS Image Sensor Implementation in eSim.
 * Acknowlegdements
 * References
 
+# Abstract
+
+
+# Reference Circuit Diagram
+
+
+# Reference Waveform
+
+
+# Circuit Details
+
+
+# Software Used
+
+
+# eSim
+
+# Circuit Diagram in eSim
+
+# Verilog Code
+
+# Netlists
+
+# GAW Plots
+
+
+
 # Acknowledgements
-* http://iitb.ac.in/
-* https://www.google.co.in/
-* https://fossee.in/
-* https://spoken-tutorial.org/
-* https://www.vlsisystemdesign.com/
-* https://www.c2s.gov.in/
+1. http://iitb.ac.in/
+2. https://www.google.co.in/
+3. https://fossee.in/
+4. https://spoken-tutorial.org/
+5. https://www.vlsisystemdesign.com/
+6. https://www.c2s.gov.in/
 
 
 
